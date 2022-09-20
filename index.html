@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fotografia para Todos</title>
+	<link href="estilos.css" rel="stylesheet">
+
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+	<style>
+
+		@media (max-width: 1196px){
+
+			.mapa{
+				width: 680px;
+			}
+		}
+
+		@media (max-width: 768px){
+			.banner{
+				display: none;
+			}
+			.mapa{
+				width: 380px;
+			}
+		}
+
+		@media (max-width: 1018px){
+			.banner, .logo-footer{
+				display: none;
+			}
+
+			.redes-sociais{
+				display: none;
+			}
+
+			.texto-conteudo{
+				margin:10px;
+			}
+			#logo{
+				float: none;
+			}
+			.mapa{
+				float: none;
+				position: relative;
+				left: 50%;
+				transform: translate(-50%,0);
+			}
+			.redes-sociais-footer{
+				float: none;
+				width: 200px;
+				position: relative;
+				left: 50%;
+				transform: translate(-50%,0);
+			}
+			footer{
+				height: 400px;
+			}
+		}
+
+		@media all and (max-width: 970px) {
+			nav{
+				width: 70px;
+			}
+		}
+	</style>
+</head>
+
+<body>	
+
+
+	<!-- CABEÇALHO -->
+	<header>
+	<img src="imagens/logo.png" id="logo">
+	
+	<h1 id="topo">Fotografia para Todos</h1>
+
+	<div class="redes-sociais">
+		<a href="https://www.instagram.com/">
+			<img src="imagens/instagram.png">
+		</a>	
+
+		<a href="https://m.facebook.com/">
+			<img src="imagens/facebook.png">
+		</a>
+
+		<a href="mailto:sorvalter@gmail.com">
+			<img src="imagens/email.png">
+		</a>
+	</div>
+</header>
+
+
+	<!-- NAVEGAÇÃO -->
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+		<div class="container-fluid">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html#conceito">Conceito</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html#historia">História</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="galeria.html">Galeria</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contatos.html">Contatos</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+	<!-- BANNER -->
+<section class="banner">
+
+	<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="3000">
+			<img src="imagens/modelo.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item" data-bs-interval="3000">
+			<img src="imagens/paisagem.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item" data-bs-interval="3000">
+			<img src="imagens/gato.jpg" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
+
+</section>	
+	<!-- CONTEUDO -->
+
+<section>
+
+<h2 id="conceito">Conceito</h2>
+
+<hr>	
+
+<div class="texto-conteudo">
+<img src="imagens/kingfisher.jpg" width="300" class="imagens-conteudo">
+
+	<p>
+	Fotografia:do grego φῶς [fós] ("luz") e γραφίς [grafis] ("instrumento para escrever, gravar, desenhar ou pintar") ou γραφή [grafé] (“escrita”), significa "desenhar com luz e contraste"; noutros termos, é essencialmente a técnica de criação de imagens por meio de exposição luminosa, fixando-as em uma superfície sensível. A primeira fotografia reconhecida remonta ao ano de 1826 e é atribuída ao francês Joseph Nicéphore Niépce. Contudo, a invenção da fotografia não é obra de um só autor, mas um processo de acúmulo de avanços por parte de muitas pessoas, trabalhando, juntas ou em paralelo, ao longo de muitos anos. Se por um lado os princípios fundamentais da fotografia se estabeleceram há décadas e, desde a introdução do filme fotográfico colorido, quase não sofreram mudanças, por outro, os avanços tecnológicos têm sistematicamente possibilitado melhorias na qualidade das imagens produzidas, agilização das etapas do processo de produção e a redução de custos, popularizando o uso da fotografia.
+	</p> 
+
+
+	<p>
+	Atualmente, a introdução da tecnologia digital tem modificado drasticamente os paradigmas que norteiam o mundo da fotografia. Os equipamentos, ao mesmo tempo que são oferecidos a preços cada vez menores, disponibilizam ao usuário médio recursos cada vez mais sofisticados, assim como maior qualidade de imagem e facilidade de uso. A simplificação dos processos de captação, armazenagem, impressão e reprodução de imagens proporcionados intrinsecamente pelo ambiente digital, aliada à facilidade de integração com os recursos da informática, como organização em álbuns, incorporação de imagens em documentos e distribuição via Internet, têm ampliado e democratizado o uso da imagem fotográfica nas mais diversas aplicações. A incorporação da câmera fotográfica aos aparelhos de telefonia móvel têm definitivamente levado a fotografia ao cotidiano particular do indivíduo.
+	</p> 
+	<p>
+	Dessa forma, a fotografia, à medida que se torna uma experiência cada vez mais pessoal, deverá ampliar, através dos diversos perfis de fotógrafos amadores ou profissionais, o já amplo espectro de significado da experiência de se conservar um momento em uma imagem.
+	</p> 
+</div>
+
+<a href="#topo" class="voltar-topo btn btn-warning bt-sm">Voltar ao Topo</a>
+
+<h2 id="historia">História</h2>
+
+
+<hr>
+
+
+<div class="texto-conteudo">
+
+<img src="imagens/mushroom.jpg" class="imagens-conteudo">
+	
+
+	<p>	A fotografia não é a obra final de um único criador. Ao longo da história, diversas pessoas foram agregando conceitos e processos que deram origem à fotografia como a conhecemos. O mais antigo destes conceitos foi o da câmara escura, descrita pelo napolitano Giovanni Baptista Della Porta, já em 1558, e conhecida por Leonardo da Vinci que, como outros artistas no século XVI, a usava para esboçar pinturas.
+	</p>
+	
+	<p>O cientista italiano Angelo Sala, em 1604, percebeu que um composto de prata escurecia ao Sol, supondo que esse efeito fosse produzido pelo calor. Foi então que Johann Heinrich Schulze, fazendo experiências com ácido nítrico, prata e gesso em 1724, determinou que era a prata halógena, convertida em prata metálica, e não o calor, que provocava o escurecimento.
+	</p>
+
+	<p>
+	A primeira fotografia reconhecida é uma imagem produzida em 1826 pelo francês Joseph Nicéphore Niépce numa placa de estanho coberta com um derivado de petróleo fotossensível chamado Betume da Judeia. A imagem foi produzida com uma câmera, sendo exigidas cerca de oito horas de exposição à luz solar. Nièpce chamou o processo de "heliografia", gravura com a luz do Sol. Paralelamente, Daguerre, outro francês, produzia com uma câmera escura efeitos visuais em um espetáculo denominado "Diorama". Daguerre e Niépce trocaram correspondência durante alguns anos, vindo finalmente a firmarem sociedade.
+	</p>
+	
+	<p>Após a morte de Nièpce, Daguerre desenvolveu um processo com vapor de mercúrio que reduzia o tempo de revelação de horas para minutos. O processo foi denominado daguerreotipia. Daguerre descreveu seu processo à Academia de Ciências e Belas Artes, na França, e logo depois requereu a patente do seu invento na Inglaterra. A popularização dos daguerreótipos[4] deu origem às especulações sobre o "fim da pintura", inspirando o Impressionismo.[5]
+	</p>
+	
+	<p>O britânico *William Fox Talbot, que já efetuava pesquisas com papéis fotossensíveis, ao tomar conhecimento dos avanços de Daguerre, em 1839, decidiu apressar a apresentação de seus trabalhos à Royal Institution e à Royal Society, procurando garantir os direitos sobre suas invenções. Talbot desenvolveu um diferente processo denominado calotipo, usando folhas de papel cobertas com cloreto de prata, que posteriormente eram colocadas em contato com outro papel, produzindo a imagem positiva. Este processo é muito parecido com o processo fotográfico em uso hoje, pois também produz um negativo que pode ser reutilizado para produzir várias imagens positivas. À época, Hippolyte Bayard também desenvolveu um método de fotografia. Porém, por demorar a anunciá-lo, não pôde mais ser reconhecido como seu inventor.
+	</p>
+
+	<p>
+	No Brasil, o francês radicado em Campinas (São Paulo), Hércules Florence, conseguiu resultados superiores aos de Daguerre, pois desenvolveu negativos. Contudo, apesar das tentativas de disseminação do seu invento, ao qual denominou "Photographie" - foi o legítimo inventor da palavra - não obteve reconhecimento à época. Sua vida e obra só foram devidamente resgatadas em 1976 por Boris Kossoy.
+	</p>
+	
+	<p>A fotografia então popularizou-se como produto de consumo a partir de 1888. A empresa Kodak abriu as portas com um discurso de marketing onde todos podiam tirar suas fotos, sem necessitar de fotógrafos profissionais com a introdução da câmera tipo "caixão" e pelo filme em rolos substituíveis criados por George Eastman.
+
+	<p>Desde então, o mercado fotográfico tem experimentado uma crescente evolução tecnológica, como o estabelecimento do filme colorido como padrão e o foco automático, ou exposição automática. Essas inovações indubitavelmente facilitam a captação da imagem, melhoram a qualidade de reprodução ou a rapidez do processamento, mas muito pouco foi alterado nos princípios básicos da fotografia.
+	</p>
+	
+	<p>A grande mudança recente, produzida a partir do final do século XX, foi a digitalização dos sistemas fotográficos. A fotografia digital mudou paradigmas no mundo da fotografia, minimizando custos, reduzindo etapas, acelerando processos e facilitando a produção, manipulação, armazenamento e transmissão de imagens pelo mundo. O aperfeiçoamento da tecnologia de reprodução de imagens digitais tem quebrado barreiras de restrição em relação a este sistema por setores que ainda prestigiam o tradicional filme, e assim, irreversivelmente ampliando o domínio da fotografia digital.
+	</p>
+</div>
+
+<a href="#topo" class="voltar-topo btn btn-warning bt-sm">Voltar ao Topo</a>
+</section>	
+	<!-- RODAPÉ -->
+
+	<footer>
+		<img src="imagens/logo-white.png" class="logo-footer">
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.1444407361344!2d-51.231203148462846!3d-30.03295609303069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519791027dfc617%3A0xea90e6f38a152f24!2sEscola%20T%C3%A9cnica%20Cec%C3%ADlia%20Meireles%20-%20SEG%20Cursos%20T%C3%A9cnicos!5e1!3m2!1spt-BR!2sbr!4v1661984225317!5m2!1spt-BR!2sbr"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+		<div class="redes-sociais-footer">
+			<img src="imagens/facebook-white.png">
+			<img src="imagens/instagram-white.png">
+			<img src="imagens/email-white.png">
+		</div>
+	</footer>
+</body>
+</html>
